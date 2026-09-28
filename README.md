@@ -1,5 +1,7 @@
 # Supporting code for "An Integrated Deep Learning Framework for Ingredient Recognition and Nutritional Composition Prediction from Nutrition5k 2D Images"
 
+This repo provides the supporting code for the paper "An Integrated Deep Learning Framework for Ingredient Recognition and Nutritional Composition Prediction from Nutrition5k 2D Images", currently under review. Specifically, it focuses on the deep learning framework for ingredient recognition and nutritional composition prediction from 2D images; for the code including statistics on nutritional profile predictions with and without ingredients detection, go to [this link](https://github.com/sergiocoluccia-gif/DL-for-ingredients-and-nutrition).
+
 ## Data
 
 We obtain the training data from [Nutrition5k](https://github.com/google-research-datasets/Nutrition5k). We first download all the videos (see their "Download Data" section), then use the provided script "extract_frames_sampled.sh" to extract every fifth frame ("sh extract_frames_sampled.sh 5"). Precise instructions are available in the repository.
